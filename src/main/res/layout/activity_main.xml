@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/rl_layout"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="#26A69A"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/add_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/addcard"
+            android:id="@+id/img_add_card"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Thêm thẻ mới"
+            android:textSize="10dp"
+            android:layout_below="@id/img_add_card"
+            android:id="@+id/btn_test"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/add_card"
+        android:background="#26A69A"
+        android:id="@+id/latest_add_card">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/finaladd1"
+            android:id="@+id/img_latest_add_card"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_test2"
+            android:textSize="10dp"
+            android:layout_below="@id/img_latest_add_card"
+            android:text="Tên người thêm thẻ cuối cùng"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="#26A69A"
+        android:layout_toRightOf="@id/latest_add_card"
+        android:id="@+id/time_off">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/tatdenfin"
+            android:id="@+id/img_timeoff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hẹn giờ tắt"
+            android:textSize="10dp"
+            android:id="@+id/btn_timeoff"
+            android:layout_below="@id/img_timeoff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="#26A69A"
+        android:layout_below="@id/add_card"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/timeon">
+
+        <ImageView
+            android:id="@+id/img_timeon"
+            android:layout_width="match_parent"
+            android:background="@drawable/timeon"
+            android:layout_height="130dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hẹn giờ bật đèn"
+            android:textSize="10dp"
+            android:id="@+id/btn_timeon"
+            android:layout_below="@id/img_timeon"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/add_card"
+        android:layout_toRightOf="@id/timeon"
+        android:background="#26A69A"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/bio">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/finger"
+            android:id="@+id/img_test2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_bio"
+            android:layout_below="@id/img_test2"
+            android:textSize="10dp"
+            android:text="Mở cửa bằng sinh trắc học" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/add_card"
+        android:background="#26A69A"
+        android:layout_toRightOf="@id/bio"
+        android:id="@+id/modeLight">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/modechange"
+            android:id="@+id/img_modeLight"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_modeLight"
+            android:textSize="10dp"
+            android:layout_below="@id/img_modeLight"
+            android:text="Điều chỉnh chế độ đèn"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/timeon"
+        android:background="#26A69A"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lightLevel">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/lightlevel"
+            android:id="@+id/img_lightLevel"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_lightLevel"
+            android:textSize="10dp"
+            android:text="Điều chỉnh độ sáng đèn"
+            android:layout_below="@id/img_lightLevel"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/timeon"
+        android:layout_toRightOf="@id/lightLevel"
+        android:layout_marginLeft="10dp"
+        android:background="#26A69A"
+        android:layout_marginRight="10dp"
+        android:id="@+id/infoSensor">
+
+        <ImageView
+            android:id="@+id/img_infoSensor"
+            android:layout_width="match_parent"
+            android:background="@drawable/infofin"
+            android:layout_height="130dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_infoSensor"
+            android:textSize="10dp"
+            android:text="Xem thông số quang trở"
+            android:layout_below="@id/img_infoSensor"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/timeon"
+        android:layout_toRightOf="@id/infoSensor"
+        android:background="#26A69A"
+        android:id="@+id/changepass">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/changepass1"
+            android:id="@+id/img_changepass"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_changepass"
+            android:textSize="10dp"
+            android:text="Thay đổi mật khẩu mở cửa"
+            android:layout_below="@id/img_changepass"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/lightLevel"
+        android:background="#26A69A"
+        android:id="@+id/forgot">
+
+        <ImageView
+            android:id="@+id/img_forgot"
+            android:layout_width="match_parent"
+            android:background="@drawable/forgotpassword"
+            android:layout_height="130dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_forgot"
+            android:textSize="10dp"
+            android:text="Quên mật khẩu mở cửa"
+            android:layout_below="@id/img_forgot"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/lightLevel"
+        android:layout_toRightOf="@id/forgot"
+        android:background="#26A69A"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/managecard">
+
+        <ImageView
+            android:id="@+id/img_managecard"
+            android:layout_width="match_parent"
+            android:background="@drawable/forgotpassword"
+            android:layout_height="130dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btn_managecard"
+            android:textSize="10dp"
+            android:text="Quên mật khẩu mở cửa"
+            android:layout_below="@id/img_managecard"
+            />
+    </RelativeLayout>
+</RelativeLayout>
