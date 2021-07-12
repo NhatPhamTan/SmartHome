@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1081548108545",
+    "firebase_url": "https://ledcontrol-2f117-default-rtdb.firebaseio.com",
+    "project_id": "ledcontrol-2f117",
+    "storage_bucket": "ledcontrol-2f117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081548108545:android:bb52e64d35a845b6df2100",
+        "android_client_info": {
+          "package_name": "com.e.connectfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081548108545-bt249is8h5qnubgort8eu5mpl8k3681n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhR_pgng2Izk4IUA4JsWrLcfDd4e-6gd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081548108545-bt249is8h5qnubgort8eu5mpl8k3681n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081548108545:android:eaf1f15e4316aaacdf2100",
+        "android_client_info": {
+          "package_name": "com.e.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081548108545-bt249is8h5qnubgort8eu5mpl8k3681n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhR_pgng2Izk4IUA4JsWrLcfDd4e-6gd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081548108545-bt249is8h5qnubgort8eu5mpl8k3681n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
