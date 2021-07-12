@@ -5,6 +5,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.biometric.BiometricPrompt;
 import androidx.core.content.ContextCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -22,6 +24,7 @@ import android.os.Message;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -48,6 +51,7 @@ import java.util.Date;
 import java.util.concurrent.Executor;
 
 public class MainActivity extends AppCompatActivity {
+
 Button test;
 EditText name;
 String a;
@@ -60,6 +64,7 @@ Button lightLevel;
 Button modeLight;
 Button infoSensor;
 Button changePass;
+Button manageCard;
 String c;
 Button forgotPass;
 boolean isTrue = false;
@@ -658,6 +663,7 @@ BiometricPrompt.PromptInfo promptInfo;
                 }
             }
         });
+
     }
     public boolean isConnect (Context context)
     {
@@ -734,4 +740,5 @@ BiometricPrompt.PromptInfo promptInfo;
         timePickerDialog.updateTime(hours, minutes);
         timePickerDialog.show();
     }
+
 }

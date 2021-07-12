@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -220,28 +224,6 @@
             android:layout_below="@id/img_forgot"
             />
     </RelativeLayout>
-    <RelativeLayout
-        android:layout_width="130dp"
-        android:layout_height="180dp"
-        android:layout_below="@id/lightLevel"
-        android:layout_toRightOf="@id/forgot"
-        android:background="#26A69A"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/managecard">
 
-        <ImageView
-            android:id="@+id/img_managecard"
-            android:layout_width="match_parent"
-            android:background="@drawable/forgotpassword"
-            android:layout_height="130dp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:id="@+id/btn_managecard"
-            android:textSize="10dp"
-            android:text="Quên mật khẩu mở cửa"
-            android:layout_below="@id/img_managecard"
-            />
-    </RelativeLayout>
 </RelativeLayout>
+    </ScrollView>
